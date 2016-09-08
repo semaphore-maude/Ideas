@@ -31,10 +31,10 @@ A list of resources and potentially interesting things to try - GPU.
 
 *Bayesian learning*
 
-* [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial with PyMC3/Theano (Part I)
+<!-- * [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial with PyMC3/Theano (Part I)
 
 * [Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network](http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/) - tutorial with PyMC3/Lasagne/Theano (Part II)
-
+ -->
 
 ## Image Processing
 
@@ -68,6 +68,7 @@ A list of resources and potentially interesting things to try - GPU.
 
 *Hello world, MNIST and the likes*
 
+
 * [Tensorflow deep neural network for MNIST](https://www.kaggle.com/kakauandme/digit-recognizer/tensorflow-deep-nn/notebook) - Tutorial by some guy on Kaggle - Jupyter notebook
 
 
@@ -76,10 +77,14 @@ A list of resources and potentially interesting things to try - GPU.
 
 ## Resources
 
+* [Tensorflow 101](https://github.com/sjchoi86/Tensorflow-101) - Tutorials (Jupyter notebooks). Basics, MLP, CNN, RNN, word2vec, auto-encoders, tensorboard, etc. 
+
+
 * [Colah's blog - Understanding convolutions](http://colah.github.io/posts/2014-07-Understanding-Convolutions/) 
 
 
     
 ## Examples
+
 
 * [Francois Chollet's Github for Keras - examples](https://github.com/fchollet/keras/tree/master/examples) - Python scripts
