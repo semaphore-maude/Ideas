@@ -1,49 +1,45 @@
 
-###**A list of resources and potentially interesting things to run on the GPU.**
+###**A list of resources and possibly interesting things to run on the GPU.**
 
 *I only included projects in Python with Tensorflow or Theano  -ML*
 
 
-- [Basics](#hello-world)
+- __[Resources](#resources)__
 
-- [Resources](#resources)
+       - [Application](#application)
 
-- [Image Processing](#image-processing)
+       - [Theory](#theory)
+
+
+- __[Basics](#basics)__
+
+
+- __[Image Processing](#image-processing)__
       
-       - [Higher Resolution](#resolution)
+       - [Higher Resolution](#higher-resolution)
 
        - [Colour](#colour)
 
-       - [Artsy stuff](#art)
+       - [Artsy stuff](#generating-art)
 
-- [Words](#words)
+- __[Text](#text)__
 
-       - [Sentiment analysis](#sentiment)
+       - [Sentiment analysis](#sentiment-analysis)
 
-       - [Generating Text](#text-gen)
+       - [Generating Text](#generating-text)
 
-- [Variational Inference](#variational-inference)
+- __[Variational Inference](#variational-inference)__
 
 
 
 - - -
-
-## Basics
-
-####*Hello world, MNIST and the likes*
-
-
-* [Tensorflow deep neural network for MNIST](https://www.kaggle.com/kakauandme/digit-recognizer/tensorflow-deep-nn/notebook) - Tutorial by some guy on Kaggle - Jupyter notebook
-
-
-* [MNIST - Generative Adverserial Networks](https://github.com/openai/improved-gan/tree/master/mnist_svhn_cifar10) - Unsupervised learning. Python/Theano/Lasagne
 
 
 ## Resources
 
 ####*Application*
 
-* [Tensorflow 101](https://github.com/sjchoi86/Tensorflow-101) - Tutorials (Jupyter notebooks). Basics, MLP, CNN, RNN, word2vec, auto-encoders, tensorboard, etc. 
+* [Tensorflow 101](https://github.com/sjchoi86/Tensorflow-101) - Basics, MLP, CNN, RNN, word2vec, auto-encoders, tensorboard, etc. Jupyter Notebooks.
 
 * [Parallelizing Neural Network Training with Theano](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch13/ch13.ipynb) - Jupyter notebook. 
     * from [Python Machine Learning by Sebastian Raschka](https://github.com/rasbt/python-machine-learning-book)
@@ -56,7 +52,18 @@
 
 * [Colah's blog](http://colah.github.io/) - About neural networks: simply explained concepts. 
 
-* [Matrix Differential Calculus with Tensors (for Machine Learning)](https://github.com/mtomassoli/papers/blob/master/tensor_diff_calc.pdf) - Theory only.
+* [Matrix Differential Calculus with Tensors (for Machine Learning)](https://github.com/mtomassoli/papers) - Theory only. File is tensor_diff_calc.pdf. 
+(Information Theory for Machine Learning is good too - inftheory.pdf)
+
+## Basics
+
+####*Hello world, MNIST and the likes*
+
+
+* [Tensorflow deep neural network for MNIST](https://www.kaggle.com/kakauandme/digit-recognizer/tensorflow-deep-nn/notebook) - Tutorial by some guy on Kaggle. Jupyter notebook.
+
+
+* [MNIST - Generative Adverserial Networks](https://github.com/openai/improved-gan/tree/master/mnist_svhn_cifar10) - Unsupervised learning. Python/Theano/Lasagne.
 
 ## Image Processing
 
@@ -79,7 +86,7 @@
 
 
 
-## Words
+## Text
 
 #### Sentiment Analysis
 
@@ -92,6 +99,6 @@
 
 ## Variational Inference
 
-* [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial with PyMC3/Theano (Part I)
+* [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial PyMC3/Theano (Part I)
 
-* [Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network](http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/) - tutorial with PyMC3/Lasagne/Theano (Part II)
+* [Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network](http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/) - tutorial PyMC3/Lasagne/Theano (Part II)
