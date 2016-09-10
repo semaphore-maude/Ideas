@@ -22,6 +22,10 @@
 
        - [Artsy stuff](#generating-art)
 
+- __[Sound](#sound)__
+      
+       - [generating sound](#generating-sound)       
+
 - __[Text](#text)__
 
        - [Sentiment analysis](#sentiment-analysis)
@@ -41,12 +45,18 @@
 
 * [Tensorflow 101](https://github.com/sjchoi86/Tensorflow-101) - Basics, MLP, CNN, RNN, word2vec, auto-encoders, tensorboard, etc. Jupyter Notebooks.
 
+* [TensorFlow tutorial and examples for beginners](https://github.com/aymericdamien/TensorFlow-Examples) - Nearest neighbour, regression, MLP, CNN, RNNs, auto-encoders, tensorboard, resources. Also features lots more examples using TFlearn.
+
 * [Parallelizing Neural Network Training with Theano](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch13/ch13.ipynb) - Jupyter notebook. 
     * from [Python Machine Learning by Sebastian Raschka](https://github.com/rasbt/python-machine-learning-book)
 
 * [Francois Chollet's Github for Keras - examples](https://github.com/fchollet/keras/tree/master/examples) - Python scripts
 
 * [Tensorflow.org tutorials](https://www.tensorflow.org/versions/r0.10/tutorials/index.html) 
+
+* [Machine Learning models in TensorFlow](https://github.com/tensorflow/models)
+
+* [Yet more Tensorflow Tutorials (code)](https://github.com/pkmital/tensorflow_tutorials) - Basics, regression, CNNs, denoising autoencoder, residual network, variational auto-encoder
 
 ####*Theory*
 
@@ -86,7 +96,14 @@
 * [Generating images with generative adverserial networks](https://github.com/openai/improved-gan/tree/master/imagenet) - Unsupervised learning. Python/Tensorflow
     * [Relevant article on generative models](https://openai.com/blog/generative-models/)
 
+## Sound
 
+#### Generating sound
+
+* [Generate music with basic RNNs](https://github.com/yaringal/BayesianRNN/tree/master/Example) - Tutorial from the Magenta project. Python/
+Tensorflow.
+
+* [DeepJazz](https://github.com/jisungk/deepjazz) - Generate elevator jazz (LSTM). Python/Theano/Keras.
 
 ## Text
 
@@ -97,6 +114,8 @@
 #### Generating Text
 
 * [LSTM text generation](https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py) - RNNs. Python/Keras
+
+* [Neural storyteller](https://github.com/ryankiros/neural-storyteller) - Generate stories about images with RNNs. Python/Theano/Lasagne.
 
 
 ## Variational Inference
