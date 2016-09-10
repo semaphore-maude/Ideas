@@ -50,6 +50,8 @@
 
 ####*Theory*
 
+* [TensorFlow paper](http://arxiv.org/abs/1603.04467)
+
 * [Colah's blog](http://colah.github.io/) - About neural networks: simply explained concepts. 
 
 * [Matrix Differential Calculus with Tensors (for Machine Learning)](https://github.com/mtomassoli/papers) - Theory only. File is tensor_diff_calc.pdf. 
