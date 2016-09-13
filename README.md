@@ -96,6 +96,8 @@
 * [Generating images with generative adverserial networks](https://github.com/openai/improved-gan/tree/master/imagenet) - Unsupervised learning. Python/Tensorflow
     * [Relevant article on generative models](https://openai.com/blog/generative-models/)
 
+* [Generative algorithms - differential lattice](https://github.com/inconvergent/differential-lattice) - Very cool. Python. 
+
 ## Sound
 
 #### Generating sound
