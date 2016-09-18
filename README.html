@@ -120,12 +120,13 @@ $(document).ready(function () {
 
 <div id="a-list-of-resources-and-possibly-interesting-things-to-run-on-the-gpu." class="section level3">
 <h3><strong>A list of resources and possibly interesting things to run on the GPU.</strong></h3>
-<p><em>I only included projects in Python with Tensorflow or Theano -ML</em></p>
+<p><strong><a href="#with-tensorflow-or-theano">with Tensorflow or theano</a></strong></p>
 <ul>
 <li><p><strong><a href="#resources">Resources</a></strong></p>
 <ul>
 <li><p><a href="#application">Application</a></p></li>
 <li><p><a href="#theory">Theory</a></p></li>
+<li><p><a href="#tools">Tools</a></p></li>
 </ul></li>
 <li><p><strong><a href="#basics">Basics</a></strong></p></li>
 <li><p><strong><a href="#image-processing">Image Processing</a></strong></p>
@@ -134,14 +135,24 @@ $(document).ready(function () {
 <li><p><a href="#colour">Colour</a></p></li>
 <li><p><a href="#generating-art">Artsy stuff</a></p></li>
 </ul></li>
+<li><p><strong><a href="#sound">Sound</a></strong></p>
+<ul>
+<li><a href="#generating-sound">generating sound</a></li>
+</ul></li>
 <li><p><strong><a href="#text">Text</a></strong></p>
 <ul>
 <li><p><a href="#sentiment-analysis">Sentiment analysis</a></p></li>
 <li><p><a href="#generating-text">Generating Text</a></p></li>
+<li><p><a href="#analyzing-text">Analyzing Text</a></p></li>
 </ul></li>
+<li><p><strong><a href="#games">Games</a></strong></p></li>
 <li><p><strong><a href="#variational-inference">Variational Inference</a></strong></p></li>
 </ul>
+<p><strong><a href="#Caffe,-Torch7-and-other%20frameworks">Caffe, Torch7 and other frameworks</a></strong></p>
 <hr />
+</div>
+<div id="with-tensorflow-or-theano" class="section level2">
+<h2><strong>With Tensorflow or Theano</strong></h2>
 </div>
 <div id="resources" class="section level2">
 <h2>Resources</h2>
@@ -149,19 +160,36 @@ $(document).ready(function () {
 <h4><em>Application</em></h4>
 <ul>
 <li><p><a href="https://github.com/sjchoi86/Tensorflow-101">Tensorflow 101</a> - Basics, MLP, CNN, RNN, word2vec, auto-encoders, tensorboard, etc. Jupyter Notebooks.</p></li>
+<li><p><a href="https://github.com/aymericdamien/TensorFlow-Examples">TensorFlow tutorial and examples for beginners</a> - Nearest neighbour, regression, MLP, CNN, RNNs, auto-encoders, tensorboard, resources. Also features lots more examples using TFlearn.</p></li>
 <li><a href="https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch13/ch13.ipynb">Parallelizing Neural Network Training with Theano</a> - Jupyter notebook.
 <ul>
 <li>from <a href="https://github.com/rasbt/python-machine-learning-book">Python Machine Learning by Sebastian Raschka</a></li>
 </ul></li>
 <li><p><a href="https://github.com/fchollet/keras/tree/master/examples">Francois Chollet’s Github for Keras - examples</a> - Python scripts</p></li>
 <li><p><a href="https://www.tensorflow.org/versions/r0.10/tutorials/index.html">Tensorflow.org tutorials</a></p></li>
+<li><p><a href="https://github.com/tensorflow/models">Machine Learning models in TensorFlow</a></p></li>
+<li><p><a href="https://github.com/pkmital/tensorflow_tutorials">Yet more Tensorflow Tutorials (code)</a> - Basics, regression, CNNs, denoising autoencoder, residual network, variational auto-encoder</p></li>
+<li><p><a href="http://www.jorditorres.org/first-contact-with-tensorflow/">First contact with TensorFlow</a></p></li>
+<li><p><a href="http://deeplearning.net/tutorial/deeplearning.pdf">Deep Learning Tutorials from LISA lab, University of Montreal</a> - Extensive resource. Would fit somewhere between ‘application’ and ‘theory’.</p></li>
 </ul>
 </div>
 <div id="theory" class="section level4">
 <h4><em>Theory</em></h4>
 <ul>
+<li><p><a href="http://arxiv.org/abs/1603.04467">TensorFlow paper</a></p></li>
 <li><p><a href="http://colah.github.io/">Colah’s blog</a> - About neural networks: simply explained concepts.</p></li>
+<li><p><a href="https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/?utm_content=buffer227b7&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Intuitive explanation of CNNs</a></p></li>
 <li><p><a href="https://github.com/mtomassoli/papers">Matrix Differential Calculus with Tensors (for Machine Learning)</a> - Theory only. File is tensor_diff_calc.pdf. (Information Theory for Machine Learning is good too - inftheory.pdf)</p></li>
+<li><p><a href="http://neuralnetworksanddeeplearning.com/index.html">Neural Networks and Deep Learning</a> - Textbook by Michael Nielsen.</p></li>
+</ul>
+</div>
+<div id="tools" class="section level4">
+<h4><em>Tools</em></h4>
+<ul>
+<li><p><a href="https://github.com/google/prettytensor">Pretty tensor</a> - High level builder API for TensorFlow</p></li>
+<li><p><a href="https://github.com/tflearn/tflearn">TFLearn</a> - Higher level API for TensorFlow.</p></li>
+<li><p><a href="http://terrytangyuan.github.io/2016/03/14/scikit-flow-intro/">Scikit Flow: a simplified interface for TensorFlow</a></p></li>
+<li><p><a href="https://github.com/ethereon/caffe-tensorflow">Convert Caffe models to TensorFlow</a></p></li>
 </ul>
 </div>
 </div>
@@ -198,6 +226,25 @@ $(document).ready(function () {
 <ul>
 <li><a href="https://openai.com/blog/generative-models/">Relevant article on generative models</a></li>
 </ul></li>
+<li><p><a href="https://github.com/inconvergent/differential-lattice">Generative algorithms - differential lattice</a> - Very cool. Python.</p></li>
+</ul>
+</div>
+<div id="other" class="section level4">
+<h4><em>Other</em></h4>
+<ul>
+<li><p><a href="https://github.com/hardmaru/write-rnn-tensorflow">Generate Handwriting</a> - Python/TensorFlow.</p></li>
+<li><p><a href="https://github.com/kelvinxu/arctic-captions">Neural Image Caption Generation with Visual Attention</a> - Python/Theano.</p></li>
+<li><p><a href="https://github.com/AKSHAYUBHAT/VisualSearchServer">Visual search based on Google’s inception model</a> - Python/TensorFlow.</p></li>
+</ul>
+</div>
+</div>
+<div id="sound" class="section level2">
+<h2>Sound</h2>
+<div id="generating-sound" class="section level4">
+<h4>Generating sound</h4>
+<ul>
+<li><p><a href="https://github.com/jisungk/deepjazz">DeepJazz</a> - Generate elevator jazz (LSTM). Python/Theano/Keras.</p></li>
+<li><p><a href="https://github.com/hexahedria/biaxial-rnn-music-composition">Generate classical music</a> - RNN. Python/Theano.</p></li>
 </ul>
 </div>
 </div>
@@ -212,16 +259,57 @@ $(document).ready(function () {
 <div id="generating-text" class="section level4">
 <h4>Generating Text</h4>
 <ul>
-<li><a href="https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py">LSTM text generation</a> - RNNs. Python/Keras</li>
+<li><p><a href="https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py">LSTM text generation</a> - RNNs. Python/Keras</p></li>
+<li><p><a href="https://github.com/ryankiros/neural-storyteller">Neural storyteller</a> - Generate stories about images with RNNs. Python/Theano/Lasagne.</p></li>
+<li><p><a href="https://github.com/tokestermw/tensorflow-shakespeare">Translate Shakespear in modern English</a> - Python/TensorFlow.</p></li>
+<li><p><a href="https://github.com/Conchylicultor/DeepQA">Deep QA, sentence prediction (chatbot)</a> - RNN. Python/TensorFlow.</p></li>
 </ul>
 </div>
+<div id="analyzing-text" class="section level4">
+<h4>Analyzing text</h4>
+<ul>
+<li><a href="https://github.com/dennybritz/cnn-text-classification-tf">Sentence classification</a> - CNN. Python/TensorFlow</li>
+</ul>
+</div>
+</div>
+<div id="games" class="section level2">
+<h2>Games</h2>
+<ul>
+<li><a href="https://github.com/spragunr/deep_q_rl">Deep Q-learning - Replicating Deep Mind</a> - Playing Atari with Deep Reinforcement Learning. Python/Theano/Lasagne.
+<ul>
+<li>Also: <a href="http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html">Deep Q-learning Pong</a> - Python/TensorFlow.</li>
+<li>Also: <a href="https://github.com/coreylynch/async-rl">Asynchronic Q-learning Atari</a> - Python/TensorFlow.</li>
+<li>Also: <a href="https://github.com/yenchenlin/DeepLearningFlappyBird">Deep learning flappy bird</a> - Python/TensorFlow.</li>
+</ul></li>
+<li><p><a href="https://github.com/erikbern/deep-pink">Deep pink, a chess AI</a> - Python/Theano.</p></li>
+<li><p><a href="https://github.com/Rochester-NRT/RocAlphaGo">Partial replication of AlphaGo</a> - Python/Keras.</p></li>
+</ul>
 </div>
 <div id="variational-inference" class="section level2">
 <h2>Variational Inference</h2>
 <ul>
-<li><p><a href="http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/">Neural Networks in PyMC3 estimated with Variational Inference</a> - tutorial with PyMC3/Theano (Part I)</p></li>
-<li><p><a href="http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/">Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network</a> - tutorial with PyMC3/Lasagne/Theano (Part II)</p></li>
+<li><p><a href="http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/">Neural Networks in PyMC3 estimated with Variational Inference</a> - tutorial PyMC3/Theano (Part I)</p></li>
+<li><p><a href="http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/">Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network</a> - tutorial PyMC3/Lasagne/Theano (Part II)</p></li>
 </ul>
+</div>
+<div id="caffe-torch7-and-other-frameworks" class="section level2">
+<h2><strong>Caffe, Torch7 and other frameworks</strong></h2>
+<div id="projects" class="section level4">
+<h4>Projects</h4>
+<ul>
+<li><p><a href="https://github.com/samim23/TED-RNN">Generate a TED talk based on previous TED talks</a> - Python/Torch</p></li>
+<li><p><a href="https://github.com/agermanidis/thingscoop">Search and filter videos based on content</a> - CNN. Python/Caffe.</p></li>
+<li><p><a href="https://github.com/rossgoodwin/neuralsnap/tree/master/neuralsnap">Neuralsnap: generate poetry based on images</a> - Python/Torch</p></li>
+<li><p><a href="https://github.com/cmusatyalab/openface">Face recognition</a> - Python/Torch7</p></li>
+<li><p><a href="https://github.com/s9xie/hed">Contour detection for image prediction</a> - CNN. Python (or Matlab)/Caffe.</p></li>
+</ul>
+</div>
+<div id="miscellaneous" class="section level4">
+<h4>Miscellaneous</h4>
+<ul>
+<li><a href="https://github.com/torch/torch7/wiki/Cheatsheet">Torch7 wiki cheatsheet</a></li>
+</ul>
+</div>
 </div>
 
 

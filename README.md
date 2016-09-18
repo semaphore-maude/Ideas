@@ -1,14 +1,17 @@
 
 ###**A list of resources and possibly interesting things to run on the GPU.**
 
-*I only included projects in Python with Tensorflow or Theano  -ML*
 
+
+**[with Tensorflow or theano](#with-tensorflow-or-theano)**
 
 - __[Resources](#resources)__
 
        - [Application](#application)
 
        - [Theory](#theory)
+
+       - [Tools](#tools)
 
 
 - __[Basics](#basics)__
@@ -32,12 +35,17 @@
 
        - [Generating Text](#generating-text)
 
+       - [Analyzing Text](#analyzing-text)
+
+- __[Games](#games)__       
+
 - __[Variational Inference](#variational-inference)__
 
-
+**[Caffe, Torch7 and other frameworks](#Caffe,-Torch7-and-other frameworks)**
 
 - - -
 
+##__With Tensorflow or Theano__
 
 ## Resources
 
@@ -58,14 +66,33 @@
 
 * [Yet more Tensorflow Tutorials (code)](https://github.com/pkmital/tensorflow_tutorials) - Basics, regression, CNNs, denoising autoencoder, residual network, variational auto-encoder
 
+* [First contact with TensorFlow](http://www.jorditorres.org/first-contact-with-tensorflow/)
+
+* [Deep Learning Tutorials from LISA lab, University of Montreal](http://deeplearning.net/tutorial/deeplearning.pdf) - Extensive resource. Would fit somewhere between 'application' and 'theory'.
+
+
 ####*Theory*
 
 * [TensorFlow paper](http://arxiv.org/abs/1603.04467)
 
 * [Colah's blog](http://colah.github.io/) - About neural networks: simply explained concepts. 
 
+* [Intuitive explanation of CNNs](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/?utm_content=buffer227b7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
 * [Matrix Differential Calculus with Tensors (for Machine Learning)](https://github.com/mtomassoli/papers) - Theory only. File is tensor_diff_calc.pdf. 
 (Information Theory for Machine Learning is good too - inftheory.pdf)
+
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) - Textbook by Michael Nielsen.
+
+####*Tools*
+
+* [Pretty tensor](https://github.com/google/prettytensor) - High level builder API for TensorFlow
+
+* [TFLearn](https://github.com/tflearn/tflearn) - Higher level API for TensorFlow.
+
+* [Scikit Flow: a simplified interface for TensorFlow](http://terrytangyuan.github.io/2016/03/14/scikit-flow-intro/)
+
+* [Convert Caffe models to TensorFlow](https://github.com/ethereon/caffe-tensorflow)
 
 ## Basics
 
@@ -98,14 +125,21 @@
 
 * [Generative algorithms - differential lattice](https://github.com/inconvergent/differential-lattice) - Very cool. Python. 
 
+####*Other*
+
+* [Generate Handwriting](https://github.com/hardmaru/write-rnn-tensorflow) - Python/TensorFlow.
+
+* [Neural Image Caption Generation with Visual Attention](https://github.com/kelvinxu/arctic-captions) - Python/Theano.
+
+* [Visual search based on Google's inception model](https://github.com/AKSHAYUBHAT/VisualSearchServer) - Python/TensorFlow.
+
 ## Sound
 
 #### Generating sound
 
-* [Generate music with basic RNNs](https://github.com/yaringal/BayesianRNN/tree/master/Example) - Tutorial from the Magenta project. Python/
-Tensorflow.
-
 * [DeepJazz](https://github.com/jisungk/deepjazz) - Generate elevator jazz (LSTM). Python/Theano/Keras.
+
+* [Generate classical music](https://github.com/hexahedria/biaxial-rnn-music-composition) - RNN. Python/Theano.
 
 ## Text
 
@@ -119,9 +153,50 @@ Tensorflow.
 
 * [Neural storyteller](https://github.com/ryankiros/neural-storyteller) - Generate stories about images with RNNs. Python/Theano/Lasagne.
 
+* [Translate Shakespear in modern English](https://github.com/tokestermw/tensorflow-shakespeare) - Python/TensorFlow.
+
+* [Deep QA, sentence prediction (chatbot)](https://github.com/Conchylicultor/DeepQA) - RNN. Python/TensorFlow.
+
+#### Analyzing text
+
+* [Sentence classification](https://github.com/dennybritz/cnn-text-classification-tf) - CNN. Python/TensorFlow
+
+## Games
+
+* [Deep Q-learning - Replicating Deep Mind](https://github.com/spragunr/deep_q_rl) - Playing Atari with Deep Reinforcement Learning. Python/Theano/Lasagne.
+    * Also: [Deep Q-learning Pong](http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html) - Python/TensorFlow.
+    * Also: [Asynchronic Q-learning Atari](https://github.com/coreylynch/async-rl) - Python/TensorFlow.
+    * Also: [Deep learning flappy bird](https://github.com/yenchenlin/DeepLearningFlappyBird) - Python/TensorFlow.
+
+
+* [Deep pink, a chess AI](https://github.com/erikbern/deep-pink) - Python/Theano.
+
+* [Partial replication of AlphaGo](https://github.com/Rochester-NRT/RocAlphaGo) - Python/Keras.
+
+
 
 ## Variational Inference
 
 * [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial PyMC3/Theano (Part I)
 
 * [Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network](http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/) - tutorial PyMC3/Lasagne/Theano (Part II)
+
+## __Caffe, Torch7 and other frameworks__
+
+#### Projects
+
+* [Generate a TED talk based on previous TED talks](https://github.com/samim23/TED-RNN) - Python/Torch
+
+* [Search and filter videos based on content](https://github.com/agermanidis/thingscoop) - CNN. Python/Caffe.
+
+* [Neuralsnap: generate poetry based on images](https://github.com/rossgoodwin/neuralsnap/tree/master/neuralsnap) - Python/Torch
+
+* [Face recognition](https://github.com/cmusatyalab/openface) - Python/Torch7
+
+* [Contour detection for image prediction](https://github.com/s9xie/hed) - CNN. Python (or Matlab)/Caffe.
+
+#### Miscellaneous
+
+* [Torch7 wiki cheatsheet](https://github.com/torch/torch7/wiki/Cheatsheet)
+
+
