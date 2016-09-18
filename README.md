@@ -111,11 +111,11 @@
 
 ####*higher resolution*
 
-* [Image super-resolution through deep learning (GPU-srez)](https://github.com/david-gpu/srez) - Reconstruct blurry pictures. Github rep: data + python scripts. 
+* [Image super-resolution through deep learning (GPU-srez)](https://github.com/david-gpu/srez) - Reconstruct blurry pictures. 
 
 ####*colour*
 
-* [Colornet: Neural Network to colorize grayscale images](https://github.com/pavelgonchar/colornet) - Github rep: data + python/tensorflow scripts.
+* [Colornet: Neural Network to colorize grayscale images](https://github.com/pavelgonchar/colornet) - Python/tensorflow.
 
 ####*generating art*
 
