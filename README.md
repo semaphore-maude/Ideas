@@ -43,6 +43,9 @@
 
 **[Caffe, Torch7 and other frameworks](#Caffe,-Torch7-and-other frameworks)**
 
+- __[Projects](#projects)__
+- __[Miscellaneous](#miscellaneous)__
+
 - - -
 
 ##__With Tensorflow or Theano__
