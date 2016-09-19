@@ -156,7 +156,7 @@
 
 * [Neural storyteller](https://github.com/ryankiros/neural-storyteller) - Generate stories about images with RNNs. Python/Theano/Lasagne.
 
-* [Translate Shakespear in modern English](https://github.com/tokestermw/tensorflow-shakespeare) - Python/TensorFlow.
+* [Translate Shakespeare in modern English](https://github.com/tokestermw/tensorflow-shakespeare) - Python/TensorFlow.
 
 * [Deep QA, sentence prediction (chatbot)](https://github.com/Conchylicultor/DeepQA) - RNN. Python/TensorFlow.
 
