@@ -1,7 +1,7 @@
 
 ###**A list of resources and possibly interesting things to run on the GPU.**
 
-####__This list is updated periodically__
+####*This list is updated periodically*
 
 **[with Tensorflow or theano](#with-tensorflow-or-theano)**
 
