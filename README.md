@@ -39,7 +39,7 @@
 
 - __[Games](#games)__       
 
-- __[Optimization](#optimization)
+- __[Optimization](#optimization)__
 
 - __[Probabilistic programming](#probabilistic-programming)__
 
