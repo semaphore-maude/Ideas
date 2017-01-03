@@ -1,9 +1,9 @@
 
-###**A list of resources and possibly interesting things to run on the GPU.**
+###**A list of resources and potentially interesting projects.**
 
 ####*This list is updated periodically*
 
-**[with Tensorflow or theano](#with-tensorflow-or-theano)**
+**[with TensorFlow or Theano](#with-tensorflow-or-theano)**
 
 - __[Resources](#resources)__
 
@@ -39,7 +39,9 @@
 
 - __[Games](#games)__       
 
-- __[Variational Inference](#variational-inference)__
+- __[Optimization](#optimization)
+
+- __[Probabilistic programming](#probabilistic-programming)__
 
 **[Caffe, Torch7 and other frameworks](#Caffe,-Torch7-and-other frameworks)**
 
@@ -61,7 +63,7 @@
 * [Parallelizing Neural Network Training with Theano](https://github.com/rasbt/python-machine-learning-book/blob/master/code/ch13/ch13.ipynb) - Jupyter notebook. 
     * from [Python Machine Learning by Sebastian Raschka](https://github.com/rasbt/python-machine-learning-book)
 
-* [Francois Chollet's Github for Keras - examples](https://github.com/fchollet/keras/tree/master/examples) - Python scripts
+* [Francois Chollet's Github repository for Keras - examples](https://github.com/fchollet/keras/tree/master/examples) - Python scripts
 
 * [Tensorflow.org tutorials](https://www.tensorflow.org/versions/r0.10/tutorials/index.html) 
 
@@ -71,7 +73,11 @@
 
 * [First contact with TensorFlow](http://www.jorditorres.org/first-contact-with-tensorflow/)
 
+* [Learning Machine Learning with TensorFlow](https://github.com/golbin/TensorFlow-ML-Exercises)
+
 * [Deep Learning Tutorials from LISA lab, University of Montreal](http://deeplearning.net/tutorial/deeplearning.pdf) - Extensive resource. Would fit somewhere between 'application' and 'theory'.
+
+* [Short Keras video tutorial](https://www.youtube.com/watch?v=Tp3SaRbql4k)
 
 
 ####*Theory*
@@ -97,6 +103,8 @@
 
 * [Convert Caffe models to TensorFlow](https://github.com/ethereon/caffe-tensorflow)
 
+* [TensorDebugger](https://github.com/ericjang/tdb) - Interactive debugging and visualization for TensorFlow.
+
 ## Basics
 
 ####*Hello world, MNIST and the likes*
@@ -115,7 +123,7 @@
 
 ####*colour*
 
-* [Colornet: Neural Network to colorize grayscale images](https://github.com/pavelgonchar/colornet) - Python/tensorflow.
+* [Colornet: Neural Network to colorize grayscale images](https://github.com/pavelgonchar/colornet) - Python/TensorFlow.
 
 ####*generating art*
 
@@ -126,7 +134,11 @@
 * [Generating images with generative adverserial networks](https://github.com/openai/improved-gan/tree/master/imagenet) - Unsupervised learning. Python/Tensorflow
     * [Relevant article on generative models](https://openai.com/blog/generative-models/)
 
+* [iGAN: Interactive Image Generation via Generative Adversarial Networks](https://github.com/junyanz/iGAN) - Python/Theano.
+
+
 * [Generative algorithms - differential lattice](https://github.com/inconvergent/differential-lattice) - Very cool. Python. 
+
 
 ####*Other*
 
@@ -136,6 +148,10 @@
 
 * [Visual search based on Google's inception model](https://github.com/AKSHAYUBHAT/VisualSearchServer) - Python/TensorFlow.
 
+* [Temporal Convolutional Networks](https://github.com/colincsl/TemporalConvolutionalNetworks) - Identifying human actions. Python/TensorFlow/Keras.
+
+* [Learning Deep Features for Discriminative Localization](#https://github.com/jazzsaxmafia/Weakly_detector) - Localization with CNNs. Python/TensorFlow.
+
 ## Sound
 
 #### Generating sound
@@ -143,6 +159,8 @@
 * [DeepJazz](https://github.com/jisungk/deepjazz) - Generate elevator jazz (LSTM). Python/Theano/Keras.
 
 * [Generate classical music](https://github.com/hexahedria/biaxial-rnn-music-composition) - RNN. Python/Theano.
+
+* [Fast Wavenet: An efficient Wavenet generation implementation](https://github.com/tomlepaine/fast-wavenet) - Python/TensorFlow.
 
 ## Text
 
@@ -176,13 +194,21 @@
 
 * [Partial replication of AlphaGo](https://github.com/Rochester-NRT/RocAlphaGo) - Python/Keras.
 
+## Optimization
 
+* [Learning to learn by gradient descent by gradient descent](https://github.com/deepmind/learning-to-learn) - in Python/TensorFlow.
 
-## Variational Inference
+## Probabilistic programming
 
 * [Neural Networks in PyMC3 estimated with Variational Inference](http://twiecki.github.io/blog/2016/06/01/bayesian-deep-learning/) - tutorial PyMC3/Theano (Part I)
 
 * [Bridging PyMC3 and Lasagne to build a Hierarchical Neural Network](http://twiecki.github.io/blog/2016/07/05/bayesian-deep-learning/) - tutorial PyMC3/Lasagne/Theano (Part II)
+
+* [Mixture density networks for galaxy distance determination](http://cbonnett.github.io/MDN.html) - Python/TensorFlow.
+
+* [Mixture density networks with Edward, Keras and TensorFlow](http://cbonnett.github.io/MDN_EDWARD_KERAS_TF.html)
+
+* [Gumbel-Softmax Variational Autoencoder with Keras](https://github.com/EderSantana/gumbel) - Jupyter notebooks.
 
 ## __Caffe, Torch7 and other frameworks__
 
@@ -194,9 +220,19 @@
 
 * [Neuralsnap: generate poetry based on images](https://github.com/rossgoodwin/neuralsnap/tree/master/neuralsnap) - Python/Torch
 
-* [Face recognition](https://github.com/cmusatyalab/openface) - Python/Torch7
+* [Face recognition](https://github.com/cmusatyalab/openface) - Python/Torch
 
 * [Contour detection for image prediction](https://github.com/s9xie/hed) - CNN. Python (or Matlab)/Caffe.
+
+* [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://github.com/jcjohnson/fast-neural-style) - Builds on the neural algorithm of artistic style by Gatys et al. Lua/Torch.
+
+* [Pixel Level Domain Transfer](https://github.com/fxia22/PixelDTGAN) - Image generation. Lua/Torch.
+
+* [BachBot](https://github.com/feynmanliang/bachbot) - LSTM for music generation. Torch.
+
+* [DeepFool](https://github.com/LTS4/DeepFool) - Fool a network with minimal perturbations. Matlab/Caffe.
+
+* [DeepDream Animator](https://github.com/samim23/DeepDreamAnim) - Generate animations based on DeepDream. Python/Caffe.
 
 #### Miscellaneous
 
