@@ -150,7 +150,7 @@
 
 * [Temporal Convolutional Networks](https://github.com/colincsl/TemporalConvolutionalNetworks) - Identifying human actions. Python/TensorFlow/Keras.
 
-* [Learning Deep Features for Discriminative Localization](#https://github.com/jazzsaxmafia/Weakly_detector) - Localization with CNNs. Python/TensorFlow.
+* [Learning Deep Features for Discriminative Localization](https://github.com/jazzsaxmafia/Weakly_detector) - Localization with CNNs. Python/TensorFlow.
 
 ## Sound
 
